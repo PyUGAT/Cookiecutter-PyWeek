@@ -1,0 +1,11 @@
+== Sources and licenses for our artwork ==
+
+Unmodified source images and in-between sources can be found in
+the source/Git distribution in "docs/original_artwork/".
+
+We used the following third party artwork (sometimes customized
+for the game) in our game:
+
+data/kind/item
+    Source: link-to-source
+    License: license
