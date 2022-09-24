@@ -28,7 +28,7 @@ if args.convert_icons:
     subprocess.check_call(['convert', 'package_for_pyweek/appicon.png', 'package_for_pyweek/appicon.icns'])
 
 # Configuration
-GAME_NAME = "{{ cookiecutter.game_name }}"
+GAME_NAME = "{{ cookiecutter.game_name }}".replace(' ', '')
 PACKAGE_NAME = f"{GAME_NAME}-{githash}"
 RESOURCES = [
     "data",
